@@ -23,7 +23,6 @@ def nyc_pigeon_organizer(data)
     hash_output[pigeon_name] = {}
     attribute_array.each do |attribute|
       hash_output[pigeon_name][attribute] = []
-      binding.pry
     end
   end
 end
