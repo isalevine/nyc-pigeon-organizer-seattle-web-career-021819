@@ -47,5 +47,5 @@ def nyc_pigeon_organizer(data)
 
     # return the hash_output
     hash_output
-  
+
 end
