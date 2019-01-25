@@ -15,8 +15,13 @@ def name_lister(data)
 end
 
 
+def attribute_grabber(data)
+  attribute_array = data.keys
+end
+
+
 def nyc_pigeon_organizer(data)
   name_array = name_lister(data)
-  binding.pry
-
+  hash_output = {}
+  name_array.each do |pigeon_name|
 end
