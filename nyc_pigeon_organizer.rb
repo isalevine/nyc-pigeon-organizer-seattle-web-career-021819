@@ -38,7 +38,7 @@ def nyc_pigeon_organizer(data)
   hash_output.each_key do |bird_name|
     pigeon_hash.each do |attribute_key, attribute_hash|
       attribute_hash.each do |attr_option_key, pigeon_name_array|
-        if pigeon_array.include?(bird_name)
+        if pigeon_name_array.include?(bird_name)
           string_temp = attr_option_key.to_s
           hash_output[bird_name][attribute_key] << string_temp
         end
