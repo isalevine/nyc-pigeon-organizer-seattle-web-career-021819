@@ -1,3 +1,6 @@
+require "pry"
+
+
 def name_lister(data)
   pigeon_hash = data
   array_output = []
@@ -13,5 +16,7 @@ end
 
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  name_array = name_lister(data)
+  binding.pry
+
 end
