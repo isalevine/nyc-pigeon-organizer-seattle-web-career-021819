@@ -17,6 +17,7 @@ end
 
 def attribute_grabber(data)
   attribute_array = data.keys
+  binding.binding.pry
 end
 
 
