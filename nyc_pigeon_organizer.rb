@@ -1,6 +1,8 @@
 require "pry"
 
-
+# extract a list of names from the pigeon_list data hash
+# and return them as an array
+# (use each name in the array as a key for hash_output)
 def name_lister(data)
   pigeon_hash = data
   array_output = []
